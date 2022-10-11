@@ -92,3 +92,78 @@ Operadores
         || OR && AND 
 
 Condicionales 
+    if else y operador ternario
+    El Operador Ternario tiene syntaxis asi:
+        condition ? true : false ; 
+        Aqui definimos la condicion, el resultado cuando se cumple 
+        y cuando no, en una sola linea
+        condition = condicion a cumplir
+        true = si es cierto has esto
+        false = si es falso has esto
+-------Switch
+    Syntaxis
+    switch (opcion){
+        case 1: 
+            //code
+            break;
+        case 2:
+            //code
+            break;
+        default:
+            //code
+    }
+
+Arrays son estructuras de datos de Tipo Objeto
+    Array Methods---
+    Push=> agrega elementos al final del array
+    Pop=> elimina elemento del array
+    Unshift=> agrega elementos al inicio del array
+    Shift=> Elimina elementos al inicio del array
+    IndexOf=> Regresa la posicion de un elemento
+
+Loops For and For of Estructuras repetitivas
+    Para arrays podemos usar => items=["pen","pencil"]
+    Debemos inicializar una variable singular de nuestro array (plural)
+    for (var item of items){
+        //Code
+    }
+    Otra manera es con variable i=0
+    for (var i=0; i < array.length; i++)>
+        //Code
+    }
+
+While Estructura repetitiva
+    Mientras la condicion sea cierta siempre se ejecuta el bloque
+    while(condicion){
+    //code
+}
+
+Objetos
+    Se guarda entre llaves {}
+    Objetos se manejan con propiedades
+    Propiedades son combinacion entre palabras claves y valores 
+    var objeto = {
+        propiedad1: "valor1",
+        propiedad2: "valor2"
+    };
+    objeto.propiedad1 //Acceder a una propiedad
+    Una funcion puede ser Propiedad de un Objeto
+    var objeto = {
+        propiedad1: "valor1",
+        propiedad2: "valor2",
+        detalleDelObjeto: function(){
+            //code
+        }
+    };
+
+Objetos => Funcion Constructora
+    Se utiliza para generar objetos de manera automatizada
+    Creamos un template del objeto con 
+    function nombreFuncion(atributo1, atributo2){
+    this.atributo1 = atributo1;
+    this.atributo2 = atributo2;
+    }
+    Luego se crea el objeto en relacion al template
+    var objetoNuevo = New nombreFuncion(atributo1, atr2...) 
+    //Esto es por cada objeto nuevo individual
+    Instancia es generar un objeto que deriva de otro objeto
