@@ -116,7 +116,7 @@ Condicionales
 Arrays son estructuras de datos de Tipo Objeto
     Array Methods---
     Push=> agrega elementos al final del array
-    Pop=> elimina elemento del array
+    Pop=> elimina elemento al final del array
     Unshift=> agrega elementos al inicio del array
     Shift=> Elimina elementos al inicio del array
     IndexOf=> Regresa la posicion de un elemento
@@ -167,3 +167,23 @@ Objetos => Funcion Constructora
     var objetoNuevo = New nombreFuncion(atributo1, atr2...) 
     //Esto es por cada objeto nuevo individual
     Instancia es generar un objeto que deriva de otro objeto
+
+Metodos de Recorrido de un Array
+    -filter()=> Devuelve TODOS los elementos del array que cumplen
+                con la condicion dada.
+                Regresa un nuevo array. (Return Objeto )
+    -map() =>   Crea un nuevo array con los resultados de la llamada 
+                a la función indicada aplicados a cada uno de sus
+                elementos. 
+                map llama la funcion una vez por cada elemento del 
+                array.  (Return Propiedad de Objeto)
+        Diferencias de filter y map son return de Objetos o Propiedades
+    -find() =>  Devuelve el PRIMER elemento del array que cumpla 
+                con la condicion dada.
+                Regresa un nuevo array. (Return objeto)
+    -forEach()=>Ejecuta lo que le definimos una vez por cada elemento 
+                del array. 
+                No genera un nuevo array (Return propiedades)
+    -some() =>  Comprueba si al menos un elemento del array cumple con
+                la condicion dada.
+                No genera un nuevo array (Return Boolean)
